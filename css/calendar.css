@@ -1,0 +1,28 @@
+.view-rugby-event{
+  box-shadow: -1px 10px 26px 10px #e8e8e8;
+}
+.view-rugby-event .view-header{
+  background-color: #fff;
+  padding: 0px 30px;
+}
+.calendar-calendar th.days{
+  padding: 10px 0px;
+  background-color: #f4f4f4;
+}
+.calendar-calendar .month-view .full td.single-day .calendar-empty, .calendar-calendar .month-view .full td.single-day.empty, .calendar-calendar .month-view .full td.date-box.empty{
+  background-color: #fff;
+  color: #cecece;
+}
+.calendar-calendar .month-view .full td.date-box.today{
+  border-width: 2px 2px 0px 2px;
+border-style: solid;
+border-color: #b4102d;
+background-color: #b4102d;
+color: #fff;
+}
+.calendar-calendar .month-view .full tr td.single-day.today{
+  border-bottom: 2px solid #b4102d;
+    background-color: #b4102d;
+    color: #fff;
+    border-color: #b4102d;
+}
